@@ -41,7 +41,7 @@ pip install channel
 
 In settings.py, add langchain_stream and daphne to INSTALLED_APPS:\
 
-Warning: `daphne` must be listed before django.contrib.staticfiles in INSTALLED_APPS.\
+Warning: `daphne` must be listed before django.contrib.staticfiles in INSTALLED_APPS.
 ```
 
 'daphne',
@@ -133,16 +133,16 @@ Install the required React packages:
 npm install
 ```
 ## vue setting
-Please see the code, change app.vue code, in  component folder use ChatComponent.vue.\
+Please see the code, change app.vue code, in  component folder use ChatComponent.vue.
 I change the index.html this code 
 ```
 <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-``` to use my favorite icon, \
-the changed code：
+```
+to use my favorite icon, the changed code：
 ```
 <link rel="icon" type="image/svg+xml" href="/src/assets/socks.ico" />
 ```
-I add this icon named "socks.ico "in "src/assets "folder\
+I add this icon named "socks.ico "in "src/assets "folder
 
 # RUN SERVER
 
