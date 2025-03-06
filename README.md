@@ -154,6 +154,7 @@ python .\manage.py runserver
 # Tutorial
 https://medium.com/@m.moshek/streaming-llm-output-with-django-react-and-langchain-tutorial-2963275b4f9c \
 https://medium.com/@ldanadrian/vue-3-websockets-how-to-build-a-realtime-chat-application-in-15-minutes-3b6a8ae5c08b \
+https://blogs.chainlyzer.com/building-an-ai-chatbot-in-less-than-an-hour-using-django-and-react-8625898d9291  \
 https://langchain-ai.github.io/langgraph/tutorials/multi_agent/hierarchical_agent_teams/#add-layers \
 https://python.langchain.com/docs/how_to/streaming/ \
 vue3：https://www.youtube.com/watch?v=V-kxBWcPJfo&t=1808s  \
