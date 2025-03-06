@@ -1,9 +1,9 @@
 # Windons systeme 
 You can use the code to build chatbot streaming output, I only used the agent chunks and I didn't use supervisor chunks \
-, the only thing you need to modify is in Backend/langgraph_agnet/views.py\
-use your own key.\
+, the only thing you need to modify is in Backend/langgraph_agnet/views.py \
+use your own key. \
 
-os.environ['OPENAI_API_KEY'] = ''\
+os.environ['OPENAI_API_KEY'] = '' \
 os.environ['TAVILY_API_KEY'] = ''
 # Result showing
 
@@ -12,7 +12,9 @@ https://github.com/user-attachments/assets/252f86e9-d485-451f-abed-287ca6362721
 
 
 # Set virtual environment
+```
 python -m pipenv shell
+``
 # Backend
 ## Install django
 pip install django
