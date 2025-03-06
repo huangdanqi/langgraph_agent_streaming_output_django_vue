@@ -62,7 +62,7 @@ ASGI_APPLICATION = "Backend.asgi.application"
 ### Create the views.py file
 Please see the code
 ```
-pip install -U langchain_community langchain_anthropic langchain_experimental\
+pip install -U langchain_community langchain_anthropic langchain_experimental
 pip install langchain-openai
 pip install langgraph==0.2.73
 ```
@@ -134,11 +134,11 @@ npm install
 ```
 ## vue setting
 Please see the code, change app.vue code, in  component folder use ChatComponent.vue.\
-I change the index.html this code \
+I change the index.html this code 
 ```
 <link rel="icon" type="image/svg+xml" href="/vite.svg" />
 ``` to use my favorite icon, \
-the changed code：\
+the changed code：
 ```
 <link rel="icon" type="image/svg+xml" href="/src/assets/socks.ico" />
 ```
@@ -146,7 +146,7 @@ I add this icon named "socks.ico "in "src/assets "folder\
 
 # RUN SERVER
 
-In different terminal:\
+In different terminal:
 ```
 npm run dev
 python .\manage.py runserver
@@ -162,7 +162,7 @@ langchain:https://www.youtube.com/watch?v=hMHyPtwruVs&t=2s \
 the meaning of agent: 
 
 https://www.youtube.com/watch?v=760Hn2U66f8 \
-https://www.youtube.com/watch?v=ZZ2QUCePgYw \
+https://www.youtube.com/watch?v=ZZ2QUCePgYw 
 
 and Chatgpt and so on 
 
