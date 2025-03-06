@@ -39,7 +39,7 @@ pip install daphne
 pip install channel
 ```
 
-In settings.py, add langchain_stream and daphne to INSTALLED_APPS:\
+In "settings.py", add "langchain_stream" and "daphne" to "INSTALLED_APPS":
 
 Warning: `daphne` must be listed before django.contrib.staticfiles in INSTALLED_APPS.
 ```
@@ -116,7 +116,7 @@ application = ProtocolTypeRouter({
 ```
 
 # Frontend
-Create a Frontend folder in the Backend same directory 
+Create a Frontend folder in the Backend, same directory 
 ```
 cd Frontend
 ```
@@ -124,7 +124,7 @@ cd Frontend
 ```
 npm create vite@latest
 ```
-Name the project frontend, select 'Vue' as the framework, and choose 'JavaScript' for the variant. Then, navigate into your new frontend directory:\
+Name the project frontend, select 'Vue' as the framework, and choose 'JavaScript' for the variant. Then, navigate into your new frontend directory:
 ```
 cd frontend
 ```
@@ -134,7 +134,7 @@ npm install
 ```
 ## vue setting
 Please see the code, change app.vue code, in  component folder use ChatComponent.vue.
-I change the index.html this code 
+I changed the index.html this code 
 ```
 <link rel="icon" type="image/svg+xml" href="/vite.svg" />
 ```
@@ -146,7 +146,7 @@ I add this icon named "socks.ico "in "src/assets "folder
 
 # RUN SERVER
 
-In different terminal:
+In different terminals:
 ```
 npm run dev
 python .\manage.py runserver
@@ -159,12 +159,12 @@ https://python.langchain.com/docs/how_to/streaming/ \
 vue3：https://www.youtube.com/watch?v=V-kxBWcPJfo&t=1808s  \
 stream: https://www.youtube.com/watch?v=y2cRcOPHL_U&t=495s \
 langchain:https://www.youtube.com/watch?v=hMHyPtwruVs&t=2s \
-the meaning of agent: 
+The meaning of agent: 
 
 https://www.youtube.com/watch?v=760Hn2U66f8 \
 https://www.youtube.com/watch?v=ZZ2QUCePgYw 
 
-and Chatgpt and so on 
+and ChatGPT and so on 
 
 
 
