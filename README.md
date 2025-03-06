@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/252f86e9-d485-451f-abed-287ca6362721
 # Set virtual environment
 ```
 python -m pipenv shell
-``
+```
 # Backend
 ## Install django
 pip install django
