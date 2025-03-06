@@ -1,10 +1,10 @@
 # Windons system
 You can use the code to build chatbot streaming output, I only used the agent chunks and I didn't use supervisor chunks \
-, the only thing you need to modify is in Backend/langgraph_agnet/views.py \
-use your own key.  \
-
-os.environ['OPENAI_API_KEY'] = '' \
+, the only thing you need to modify is in "Backend/langgraph_agnet/views.py " use your own key. 
+```
+os.environ['OPENAI_API_KEY'] = '' 
 os.environ['TAVILY_API_KEY'] = ''
+```
 # Result showing
 
 
@@ -50,7 +50,7 @@ Warning: `daphne` must be listed before django.contrib.staticfiles in INSTALLED_
 ```
 'langgraph_agent',
 ### Replace the WSGI application line with an ASGI configuration to enable asynchronous communication.
-Remove or comment out the line:\
+Remove or comment out the line:
 ```
 #WSGI_APPLICATION = ' Backend.wsgi.application'
 ```
@@ -61,18 +61,21 @@ ASGI_APPLICATION = "Backend.asgi.application"
 
 ### Create the views.py file
 Please see the code
+```
 pip install -U langchain_community langchain_anthropic langchain_experimental\
-pip install langchain-openai\
-pip install langgraph==0.2.73\
+pip install langchain-openai
+pip install langgraph==0.2.73
+```
 I set the key in views.py , you should change your key
+```
 os.environ['OPENAI_API_KEY'] = ''
 os.environ['TAVILY_API_KEY'] = ''
-
+```
 
 ### Set Up Websocket Routing
 Define how websocket connections are handled by creating routing.py and urls.py in your langgraph_agent app.\
 
-Create the file: langgraph_agent/routing.py,and add the following code:\
+Create the file: langgraph_agent/routing.py,and add the following code:
 ```
 from django.urls import re_path  
 from . import views  
@@ -81,7 +84,7 @@ websocket_urlpatterns = [
     re_path(r'ws/chat/$', views.ChatConsumer.as_asgi()),  
 ]
 ```
-Create the file: langgraph_agent/urls.py,and add the following code:\
+Create the file: langgraph_agent/urls.py,and add the following code:
 ```
 from django.urls import path  
 from . import views  
@@ -92,7 +95,7 @@ urlpatterns = [
 ]
 ```
 
-Replace the code in Backend/asgi.py with the following:\
+Replace the code in Backend/asgi.py with the following:
 ```
 import os  
 from django.core.asgi import get_asgi_application  
@@ -125,7 +128,7 @@ Name the project frontend, select 'Vue' as the framework, and choose 'JavaScript
 ```
 cd frontend
 ```
-Install the required React packages:\
+Install the required React packages:
 ```
 npm install
 ```
@@ -156,7 +159,7 @@ https://python.langchain.com/docs/how_to/streaming/ \
 vue3：https://www.youtube.com/watch?v=V-kxBWcPJfo&t=1808s  \
 stream: https://www.youtube.com/watch?v=y2cRcOPHL_U&t=495s \
 langchain:https://www.youtube.com/watch?v=hMHyPtwruVs&t=2s \
-the meaning of agent: \
+the meaning of agent: 
 
 https://www.youtube.com/watch?v=760Hn2U66f8 \
 https://www.youtube.com/watch?v=ZZ2QUCePgYw \
