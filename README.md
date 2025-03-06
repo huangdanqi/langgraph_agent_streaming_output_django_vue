@@ -17,25 +17,37 @@ python -m pipenv shell
 ```
 # Backend
 ## Install django
+```
 pip install django
+```
 ### Create django project
+```
 django-admin startproject Backend
+```
 ### Move into the project directory
+```
 cd Backend
+```
 ### Create a Django App named
+```
 python manage.py startapp langgraph_agent
+```
 
 ### Configure the Django settings.py for Websockets
+```
 pip install daphne \
 pip install channels\
+```
 
 In settings.py, add langchain_stream and daphne to INSTALLED_APPS:\
 
 Warning: `daphne` must be listed before django.contrib.staticfiles in INSTALLED_APPS.\
+```
 
 'daphne',\
 'channels',\
  ...,\
+```
 'langgraph_agent',
 ### Replace the WSGI application line with an ASGI configuration to enable asynchronous communication.
 Remove or comment out the line:\
