@@ -110,19 +110,19 @@ In different terminal:\
 npm run dev\
 python .\manage.py runserver
 # Tutorial
-https://medium.com/@m.moshek/streaming-llm-output-with-django-react-and-langchain-tutorial-2963275b4f9c\
-https://medium.com/@ldanadrian/vue-3-websockets-how-to-build-a-realtime-chat-application-in-15-minutes-3b6a8ae5c08b\
-https://langchain-ai.github.io/langgraph/tutorials/multi_agent/hierarchical_agent_teams/#add-layers\
-https://python.langchain.com/docs/how_to/streaming/\
-vue3：https://www.youtube.com/watch?v=V-kxBWcPJfo&t=1808s \
-stream: https://www.youtube.com/watch?v=y2cRcOPHL_U&t=495s\
-langchain:https://www.youtube.com/watch?v=hMHyPtwruVs&t=2s\
-the meaning of agent:\
+https://medium.com/@m.moshek/streaming-llm-output-with-django-react-and-langchain-tutorial-2963275b4f9c \
+https://medium.com/@ldanadrian/vue-3-websockets-how-to-build-a-realtime-chat-application-in-15-minutes-3b6a8ae5c08b \
+https://langchain-ai.github.io/langgraph/tutorials/multi_agent/hierarchical_agent_teams/#add-layers \
+https://python.langchain.com/docs/how_to/streaming/ \
+vue3：https://www.youtube.com/watch?v=V-kxBWcPJfo&t=1808s  \
+stream: https://www.youtube.com/watch?v=y2cRcOPHL_U&t=495s \
+langchain:https://www.youtube.com/watch?v=hMHyPtwruVs&t=2s \
+the meaning of agent: \
 
-https://www.youtube.com/watch?v=760Hn2U66f8\
-https://www.youtube.com/watch?v=ZZ2QUCePgYw\
+https://www.youtube.com/watch?v=760Hn2U66f8 \
+https://www.youtube.com/watch?v=ZZ2QUCePgYw \
 
-and chatgpt and so on 
+and Chatgpt and so on 
 
 
 
