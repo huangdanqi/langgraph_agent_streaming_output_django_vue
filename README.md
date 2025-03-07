@@ -8,7 +8,11 @@ os.environ['TAVILY_API_KEY'] = ''
 # Result showing
 
 
-https://github.com/user-attachments/assets/252f86e9-d485-451f-abed-287ca6362721
+
+
+https://github.com/user-attachments/assets/90ce1ffe-6ebc-4ba6-b711-b57b36a7f498
+
+
 
 
 # Set virtual environment
